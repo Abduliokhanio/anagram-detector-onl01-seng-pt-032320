@@ -1,10 +1,14 @@
 # Your code goes here!
 class Anagram
+<<<<<<< HEAD
   
+=======
+>>>>>>> 1116b96ea26edfc23b9e03b79e90180b81681139
   def initialize(text)
     @text = text
   end
   
+<<<<<<< HEAD
   def match(array)
     q = []
     array.each do |val| 
@@ -19,4 +23,9 @@ class Anagram
     word.chars.sort == @text.chars.sort
   end
       
+=======
+  def match()
+    
+  end
+>>>>>>> 1116b96ea26edfc23b9e03b79e90180b81681139
 end
